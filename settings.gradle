@@ -1,0 +1,6 @@
+rootProject.name = 'beneficiary'
+
+include 'application'
+include 'entities'
+include 'usecases'
+include 'web'
