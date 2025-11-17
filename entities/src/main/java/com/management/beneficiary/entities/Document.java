@@ -27,23 +27,4 @@ public class Document extends Auditable{
   private String tipoDocumento;
   private String descricao;
 
-  @Override
-  public LocalDateTime getInsertDate() {
-    return super.getInsertDate();
-  }
-
-  @Override
-  public void setInsertDate(LocalDateTime insertDate) {
-    super.setInsertDate(insertDate);
-  }
-
-  @Override
-  public LocalDateTime getUpdateDate() {
-    return super.getUpdateDate();
-  }
-
-  @Override
-  public void setUpdateDate(LocalDateTime updateDate) {
-    super.setUpdateDate(updateDate);
-  }
 }

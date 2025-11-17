@@ -10,8 +10,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-import java.time.LocalDateTime;
-
 @Builder
 @ToString
 @NoArgsConstructor
@@ -28,23 +26,4 @@ public class Beneficiary extends Auditable {
     private String telephone;
     private String birthDate;
 
-    @Override
-    public LocalDateTime getInsertDate() {
-        return super.getInsertDate();
-    }
-
-    @Override
-    public void setInsertDate(LocalDateTime insertDate) {
-        super.setInsertDate(insertDate);
-    }
-
-    @Override
-    public LocalDateTime getUpdateDate() {
-        return super.getUpdateDate();
-    }
-
-    @Override
-    public void setUpdateDate(LocalDateTime updateDate) {
-        super.setUpdateDate(updateDate);
-    }
 }
